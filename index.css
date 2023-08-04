@@ -1,0 +1,314 @@
+body
+{
+    background-color:lightgray;
+}
+
+#container
+{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    left: 400px;
+    top: 70px;
+    position: absolute;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px black;
+}
+
+label
+{
+    font-weight: bold;
+    font-size: large;
+}
+
+#lbl1
+{
+    top: 55px;
+    position: absolute;
+    left: 10px;
+}
+
+#txtStdName
+{
+    border: none;
+    left: 140px;
+    position: absolute;
+    width: 340px;
+    top: 50px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    outline: 0;
+    background-color: whitesmoke;
+}
+
+#lbl2
+{
+    top: 88px;
+    position: absolute;
+    left: 18px;
+}
+
+#lbl3
+{
+    top: 123px;
+    position: absolute;
+    left: 89px;
+}
+
+#lbl4
+{
+    top: 158px;
+    position: absolute;
+    left: 74px;
+}
+
+#txtFthrName
+{
+    border: none;
+    left: 140px;
+    position: absolute;
+    width: 340px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    outline: 0;
+    top: 85px;
+    background-color: whitesmoke;
+}
+
+#pi
+{
+    left: 155px;
+    position: absolute;
+    top: -11px;
+}
+
+#txtRollNo
+{
+    border: none;
+    left: 140px;
+    position: absolute;
+    width: 340px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    outline: 0;
+    top: 155px;
+    background-color: whitesmoke;
+}
+
+#txtAge
+{
+    border: none;
+    left: 140px;
+    position: absolute;
+    width: 340px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    outline: 0;
+    top: 120px;
+    background-color: whitesmoke;
+}
+
+.OnFocus
+{
+    box-shadow: 1px 1px 10px cadetblue;
+    border: none;
+    transition: 0.3s;
+}
+
+.TextLeave
+{
+    transition: 0.3s;
+    border: none;
+    box-shadow: none;
+    left: 140px;
+    position: absolute;
+    width: 340px;
+    top: 10px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    outline: 0;
+}
+
+#ei
+{
+    top: 180px;
+    left: 130px;
+    position: absolute;
+}
+
+#lbl5
+{
+    position: absolute;
+    left: 62px;
+    top: 253px;
+}
+
+#lbl6
+{
+    position: absolute;
+    left: 39px;
+    top: 287px;
+}
+
+#lbl7
+{
+    position: absolute;
+    left: 63px;
+    top: 323px;
+}
+
+#lbl8
+{
+    position: absolute;
+    left: 28px;
+    top: 357px;
+}
+
+#lbl9
+{
+    position: absolute;
+    left: 62px;
+    top: 393px;
+}
+
+#txtbio
+{
+    border: none;
+    left: 140px;
+    position: absolute;
+    width: 340px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    outline: 0;
+    background-color: whitesmoke;
+    top: 250px;   
+}
+
+#txtChem
+{
+    border: none;
+    left: 140px;
+    position: absolute;
+    width: 340px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    outline: 0;
+    background-color: whitesmoke;
+    top: 285px;   
+}
+
+#txtPhy
+{
+    border: none;
+    left: 140px;
+    position: absolute;
+    width: 340px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    outline: 0;
+    background-color: whitesmoke;
+    top: 320px;   
+}
+
+#txtmath
+{
+    border: none;
+    left: 140px;
+    position: absolute;
+    width: 340px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    outline: 0;
+    background-color: whitesmoke;
+    top: 355px;   
+}
+
+#txteng
+{
+    border: none;
+    left: 140px;
+    position: absolute;
+    width: 340px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    outline: 0;
+    background-color: whitesmoke;
+    top: 390px;   
+}
+
+#btnSubmit
+{
+    position: absolute;
+    top: 450px;
+    left: 380px;
+    width: 100px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+#btnClear
+{
+    position: absolute;
+    top: 450px;
+    left: 260px;
+    width: 100px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+#btnClear:hover
+{
+    top: 445px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px red;
+}
+
+#btnSubmit:hover
+{
+    top: 445px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px green;
+}
+
+#btnSubmit:not(:hover),#btnClear:not(:hover)
+{
+    transition: 0.3s;
+}
+
+/* .Visible
+{
+    visibility: visible;
+}
+
+#TempHide
+{
+    visibility: hidden;
+}
+*/
+
+.Hidden
+{
+    visibility: hidden;
+} 

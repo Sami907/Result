@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="pi">Personal Info</h1>
+        <label id="lbl1">Student Name : </label>
+        <label id="lbl2">Father Name : </label>
+        <label id="lbl3">Age : </label>
+        <label id="lbl4">Roll # :</label> 
+        <input type="text" id="txtStdName" placeholder="Your Name" onfocus="OnFocus('txtStdName')" onblur="TextLeave('txtStdName')">
+        <input type="text" id="txtFthrName" placeholder="Your Father Name" onfocus="OnFocus('txtFthrName')" onblur="TextLeave('txtFthrName')">
+        <input type="number" id="txtAge" placeholder="Enter Your Age" onfocus="OnFocus('txtAge')" onblur="TextLeave('txtAge')">
+        <input type="number" id="txtRollNo" placeholder="Enter Your Roll No" onfocus="OnFocus('txtRollNo')" onblur="TextLeave('txtRollNo')">  
+        <h1 id="ei">Educational Info</h1>
+        <label id="lbl5">Biology : </label>
+        <input type="number" id="txtbio" placeholder="Enter Your Marks" onfocus="OnFocus('txtbio')" onblur="TextLeave('txtbio')">  
+        <label id="lbl6">Chemistry : </label>
+        <input type="number" id="txtChem" placeholder="Enter Your Marks" onfocus="OnFocus('txtChem')" onblur="TextLeave('txtChem')">  
+        <label id="lbl7">Physics : </label>
+        <input type="number" id="txtPhy" placeholder="Enter Your Marks" onfocus="OnFocus('txtPhy')" onblur="TextLeave('txtPhy')">  
+        <label id="lbl8">Mathmatics : </label>
+        <input type="number" id="txtmath" placeholder="Enter Your Marks" onfocus="OnFocus('txtmath')" onblur="TextLeave('txtmath')">  
+        <label id="lbl9">English : </label>
+        <input type="number" id="txteng" placeholder="Enter Your Marks" onfocus="OnFocus('txteng')" onblur="TextLeave('txteng')">  
+        <button id="btnSubmit" onclick="Submit()">Submit</button>  
+        <button id="btnClear" onclick="ClearText()">Clear</button>  
+    </div>
+
+    <!-- <div id="TempHide">
+        <label>Student Name : </label>
+        <label id="username">OutPut</label>
+        <br>
+        <br>
+        <label>Father Name : </label>
+        <label id="fathername">OutPut</label>
+        <br>
+        <br>
+        <label>Age : </label>
+        <label id="age">OutPut</label>
+        <br>
+        <br>
+        <label>Roll No : </label>
+        <label id="roll">OutPut</label>
+        <br>
+        <br>
+        <label>Total Marks : </label>
+        <label id="marks">OutPut</label>
+        <br>
+        <br>
+        <label>Obtained Marks : </label>
+        <label id="omarks">OutPut</label>
+        <br>
+        <br>
+        <label>Result : </label>
+        <label id="rslt">OutPut</label>
+        
+    </div> -->
+    <script src="index.js"></script>
+</body>
+</html>
